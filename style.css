@@ -9,24 +9,41 @@
 
 body {
     background-color:blanchedalmond;
+    font-family:'Joan', serif, 'Parisienne', cursive;
+    display:flex;
+    flex-direction:column;
+    min-height: 100vh;
+    justify-content: flex-start;
     
 }
 
 header {
     padding:40px;
     text-align: center;
-    background-color: orangered;
+    background-color:orangered;
     color:blanchedalmond;
     font-size: xx-large;
+    font-weight: bolder;
 }
 
 nav {
     display:flex;
     background-color:mediumaquamarine;
+    
        
 }
 nav a {
     text-decoration:none;
-    
-    
+    padding:14px 20px;
+    color:blanchedalmond;
+    justify-content: center;
+
+}
+
+.myphoto {
+    display:block;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
