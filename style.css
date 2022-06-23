@@ -1,12 +1,16 @@
+/*Universal selectors*/
+
 * {
     margin:0;
     padding:0;
     box-sizing: border-box;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance:none;
     
 }
 
-
-
+/*Element selectors-Website body*/
 body {
     background-color:blanchedalmond;
     font-family:'Joan', serif, 'Parisienne', cursive;
@@ -17,6 +21,7 @@ body {
     
 }
 
+/*Element selectors-Header*/
 header {
     padding:40px;
     text-align: center;
@@ -27,13 +32,14 @@ header {
     
 }
 
+/*Element selectors-Navigation menu*/
 nav {
     display:flex;
     background-color:mediumaquamarine;
     font-size: 25px;
-    
-       
 }
+
+/*Element selectors-Navigation links*/
 nav a {
     text-decoration:none;
     padding:14px 20px;
@@ -42,35 +48,32 @@ nav a {
 
 }
 
+/*Class selectors-My picture*/
 .myphoto {
     display:block;
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
-    
-
 }
 
-.leftcontent {
+/*Class selectors- Titles for each section placed aside*/
+.leftcontent h1 {
     display:block;
     flex-wrap:wrap;
     float: left;
     margin: 100px;
-  
-}
-
-.leftcontent h1{
     color:darkturquoise;
     font-size: 50px;
     border: 5px solid tomato;
-    display:flex;
-    flex-wrap:wrap;
     background-color:whitesmoke;
     padding: 50px;
     border-radius: 15px;
     box-shadow: 10px 10px 10px tomato;
+    text-align: center;
 }
 
+
+/*Class selectors-Styling for each section's  paragraphs*/
 .content p {
     font-size: 20px;
     color:darkturquoise;
@@ -83,8 +86,77 @@ nav a {
     padding: 50px;
     border-radius: 15px;
     box-shadow: 10px 10px 10px tomato;
-   
+}
+
+/*ID selectors-Big image in the Work section*/
+#bigimage {
     
-    
+    color:darkturquoise;
+    width:900px;
+    height:400px;
+    margin-top: 70px;
+    margin-right: auto;
+    border: 5px solid tomato;
+    display:flex;
+    flex-wrap:wrap;
+    background-color:whitesmoke;
+    margin-right: 30px;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px tomato;
+}
+
+/*Class selectors-Placing the 2 smaller boxes in the same line/row*/
+.smallboxes::before {
+    content:"";
+    clear:both;
+    display: table;
+}
+
+/*ID selectors for the small boxes 1 and 2*/
+#smallbox1 {
+    color:darkturquoise;
+    width:25%;
+    height:300px;
+    margin-top: 70px;
+    margin-right: auto;
+    margin-left:480px;
+    border: 5px solid tomato;
+    float:left;
+    background-color:whitesmoke;
+    margin-right: 30px;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px tomato;
+}
+
+#smallbox2 {
+    color:darkturquoise;
+    width:25%;
+    height:300px;
+    margin-top: 70px;
+    margin-right: 100px;
+    border: 5px solid tomato;
+    float:right;
+    background-color:whitesmoke;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px tomato;
+}
+
+#contactmebox {
+    font-size: 20px;
+    color:darkturquoise;
+    margin-right: auto;
+    border: 5px solid tomato;
+    display:inline-block;
+    background-color:whitesmoke;
+    margin-right: 30px;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px tomato;
+    margin-top: 100px;
+    width:800px;
     
 }
+

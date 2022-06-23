@@ -8,7 +8,9 @@
     <link rel="stylesheet" type="text/css" href="../portfolio-pro-main/style.css"/>
 </head>
 <body>
+<!--Header-->    
     <header>
+        <div class="header-image"></div>
         <h1>My Portfolio</h1> 
         <p>Dina Brady</p>
     </header>
@@ -16,19 +18,20 @@
     <nav>
         <a href="#aboutmelink">About Me</a>
         <a href="#worklink">Work</a>
-        <a href="#contactme">Contact Me</a>
+        <a href="#contactmelink">Contact Me</a>
     </nav>
-
+<!--My picture-->
 <div>
     <img class="myphoto" src="../portfolio-pro-main/images/photo.jpg" alt="Picture of Dina Brady" weight=400px height= 400px/>
 </div>
 
-
+<!--Main content-->
 <main>
+<!--Title for the About me section placed aside-->    
     <aside class="leftcontent">
-        <h1 id="aboutmelink">About Me</h1>
+        <h1 id="aboutmelink">About<br>Me</h1>
     </aside>
-
+<!--About me main section-->
     <section class="content">
         <p>I am originary from Tamaulipas, Mexico, where I graduated with a Bachelor's degree in International Relations 
         from the Autonomous University of Tamaulipas in 2007. In 2009 I was hired by the Mexican government to work at 
@@ -41,14 +44,43 @@
         Bachelor's Degree in Computer Science as a part-time student. Because of that, I wanted to give a try to the Coding Boot Camp to 
         introduce myself in the industry at a faster pace.</p>
     </section>
-    
+ <!--Title for the Work section placed aside-->   
     <aside class="leftcontent">
         <h1 id="worklink">Work</h1>
     </aside>
-
+ <!--Work main section-->
     <section class="content">
-        <div class="bigbox"></div>
-        
+        <div>
+            <img src=./images/logo.png alt="The Best Outdoor Places in Utah logo" id="bigimage" title="This application is a platform to find informaiton about Utah outdoors">
+       </div>
+        <div class="smallboxes">
+            <img src="./images/BSB favicon.png" alt="Backstreet Boys Fan Page favicon created by Dina Brady" id="smallbox1">
+        </div>
+        <div>
+            <img src="./images/JavaScript sample.jpg" alt="image with a yellow box and buttons under it" id="smallbox2">
+        </div>
+    </section>
+<!--Title for the Contact me section placed aside-->
+    <aside class="leftcontent">
+        <h1 id="contactmelink">Contact<br>Me</h1>
+    </aside>
+    <!--Contact me main section-->
+    <section class="content">
+        <div>
+            <table id="contactmebox">
+              <tr>
+                <th>Email:</th>
+                    <td>dinalo.brady@gmail.com</td>
+                <tr>
+                    <th>Cell:</th>
+                        <td>801-381-xxxx</td>
+                </tr>
+                <tr>
+                    <th>GitHub:</th>
+                        <td><a href="https://github.com/DinaLo44">My GitHub page</a></td>
+                </tr>
+                </table>
+            
     </section>
     
     
