@@ -20,15 +20,17 @@ body {
 header {
     padding:40px;
     text-align: center;
-    background-color:orangered;
+    background-color:tomato;
     color:blanchedalmond;
-    font-size: xx-large;
+    font-size: 30px;
     font-weight: bolder;
+    
 }
 
 nav {
     display:flex;
     background-color:mediumaquamarine;
+    font-size: 25px;
     
        
 }
@@ -45,5 +47,44 @@ nav a {
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
+    
 
+}
+
+.leftcontent {
+    display:block;
+    flex-wrap:wrap;
+    float: left;
+    margin: 100px;
+  
+}
+
+.leftcontent h1{
+    color:darkturquoise;
+    font-size: 50px;
+    border: 5px solid tomato;
+    display:flex;
+    flex-wrap:wrap;
+    background-color:whitesmoke;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px tomato;
+}
+
+.content p {
+    font-size: 20px;
+    color:darkturquoise;
+    margin-right: auto;
+    border: 5px solid tomato;
+    display:flex;
+    flex-wrap:wrap;
+    background-color:whitesmoke;
+    margin-right: 30px;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px tomato;
+   
+    
+    
+    
 }
