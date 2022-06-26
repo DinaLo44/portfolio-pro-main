@@ -61,7 +61,9 @@ nav a {
     display:block;
     flex-wrap:wrap;
     float: left;
-    margin: 100px;
+    margin-left: 50px;
+    margin-right:50px;
+    margin-top: 100px;
     color:darkturquoise;
     font-size: 50px;
     border: 5px solid tomato;
@@ -72,10 +74,10 @@ nav a {
     text-align: center;
 }
 
-.content {
+.content,
+.bigbox {
     position:relative;
 }
-
 
 /*Class selectors-Styling for each section's  paragraphs*/
 .content p {
@@ -97,10 +99,10 @@ nav a {
     
     position:relative;
     color:darkturquoise;
-    width:900px;
+    width:950px;
     height:400px;
     margin-top: 70px;
-    margin-right: 30px;
+    margin-right: 20px;
     padding: 50px;
     border: 5px solid tomato;
     display:flex;
@@ -111,11 +113,10 @@ nav a {
 }
 
 
-
 .text-block1 {
     position:absolute;
     top:-20px;
-    right:235px;
+    right:250px;
     background-color:tomato;
     color:white;
     padding:15px;
@@ -146,7 +147,6 @@ border-radius: 10px;
     color:white;
     border-radius:10px;
 }
-
 
 
 /*Class selectors-Placing the 2 smaller boxes in the same line/row*/
@@ -186,7 +186,6 @@ border-radius: 10px;
     box-shadow: 10px 10px 10px tomato;
 }
 
-
 .contactbox {
     display:flex;
     width:800px;
@@ -209,6 +208,11 @@ border-radius: 10px;
 #linkcolor1,
 #linkcolor2 {
     color:darkturquoise;
+}
+
+@media screen and (max-width: 980px) {
+
+    
 }
 
 @media screen and (max-width:768px) {
@@ -241,3 +245,4 @@ border-radius: 10px;
         text-align:center;
     }
 }
+
