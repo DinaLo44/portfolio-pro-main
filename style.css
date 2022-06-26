@@ -61,9 +61,7 @@ nav a {
     display:block;
     flex-wrap:wrap;
     float: left;
-    margin-left: 50px;
-    margin-right:50px;
-    margin-top: 100px;
+    margin: 100px;
     color:darkturquoise;
     font-size: 50px;
     border: 5px solid tomato;
@@ -74,14 +72,13 @@ nav a {
     text-align: center;
 }
 
-.content,
-.bigbox {
+.content {
     position:relative;
 }
 
 /*Class selectors-Styling for each section's  paragraphs*/
 .content p {
-    font-size: 20px;
+    font-size: 25px;
     color:darkturquoise;
     margin-right: auto;
     border: 5px solid tomato;
@@ -99,10 +96,10 @@ nav a {
     
     position:relative;
     color:darkturquoise;
-    width:950px;
+    width:900px;
     height:400px;
     margin-top: 70px;
-    margin-right: 20px;
+    margin-right: 30px;
     padding: 50px;
     border: 5px solid tomato;
     display:flex;
@@ -116,7 +113,7 @@ nav a {
 .text-block1 {
     position:absolute;
     top:-20px;
-    right:250px;
+    right:235px;
     background-color:tomato;
     color:white;
     padding:15px;
