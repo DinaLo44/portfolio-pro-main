@@ -14,7 +14,7 @@ This project consisted in creating a profesional portfolio where I could introdu
 -Finally the "Contact Me" section displays what it could be my phone number, and then my real my personal email and a link to my GitHub site.
 
 Here is a screenshot of the final website:
-![portfolio-pro-main](https://github/DinaLo44/portfolio-pro-main/main/images/portfolio screenshot.png)
+![portfolio-pro-main](https://github.com/DinaLo44/portfolio-pro-main/blob/main/images/portfolio%20screenshot.png)
 
 Here is the link of the deployed application:
 
