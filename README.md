@@ -10,7 +10,7 @@ This project consisted in creating a profesional portfolio where I could introdu
 
 -The third and last application is a simple demostration of basic JavaScript functions.
 
--Finally the "Contact Me" section displays a 10-digit number (which represents what it could be my phone number), my real my personal email and a link to my GitHub site.
+-Finally the "Contact Me" section displays a 10-digit number (which represents what it could be my phone number), my real personal email and a link to my GitHub site.
 
 Here is a screenshot of the final website:
 ![portfolio-pro-main](https://github.com/DinaLo44/portfolio-pro-main/blob/main/images/portfolio%20screenshot.png)
