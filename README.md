@@ -4,7 +4,7 @@ This project consisted in creating a profesional portfolio where I could introdu
 
 -The "About Me" section explains about the jobs I have worked in and my academic history during the last 12 years. 
 
--The "Work" section included three small projects I developed as part of the Coding bootcamp prework. The first project consisted in a platform that will link viewers to informative sites in order to learn more about outdoor activities and places Utah offers. 
+-The "Work" section includes three small projects I developed as part of the Coding bootcamp prework. The first project consisted in a platform that will link viewers to informative sites in order to learn more about outdoor activities and places Utah offers. 
 
 -The second application is a fan page that informs about the "Backstreet Boys" band. The website diplays the history of the band, names, ages and places of birth for all  members, among other facts.
 
