@@ -1,56 +1,56 @@
 /*Universal selectors*/
 
 * {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     -moz-appearance: none;
     -webkit-appearance: none;
-    appearance:none;
-    
+    appearance: none;
+
 }
 
 /*Element selectors-Website body*/
 body {
-    background-color:blanchedalmond;
-    font-family:'Joan', serif, 'Parisienne', cursive;
-    display:flex;
-    flex-direction:column;
+    background-color: blanchedalmond;
+    font-family: 'Joan', serif, 'Parisienne', cursive;
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
     justify-content: flex-start;
-    
+
 }
 
 /*Element selectors-Header*/
 header {
-    padding:40px;
+    padding: 40px;
     text-align: center;
-    background-color:tomato;
-    color:blanchedalmond;
+    background-color: tomato;
+    color: blanchedalmond;
     font-size: 30px;
     font-weight: bolder;
-    
+
 }
 
 /*Element selectors-Navigation menu*/
 nav {
-    display:flex;
-    background-color:mediumaquamarine;
+    display: flex;
+    background-color: mediumaquamarine;
     font-size: 25px;
 }
 
 /*Element selectors-Navigation links*/
 nav a {
-    text-decoration:underline;
-    padding:14px 20px;
-    color:blanchedalmond;
+    text-decoration: underline;
+    padding: 14px 20px;
+    color: blanchedalmond;
     justify-content: center;
 
 }
 
-/*Class selectors-My picture*/
+/*Class selectors-My photo*/
 .myphoto {
-    display:block;
+    display: block;
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -58,188 +58,393 @@ nav a {
 
 /*Class selectors- Titles for each section placed aside*/
 .leftcontent h1 {
-    display:block;
-    flex-wrap:wrap;
+    display: block;
+    flex-wrap: wrap;
     float: left;
     margin: 100px;
-    color:darkturquoise;
+    color: darkturquoise;
     font-size: 50px;
     border: 5px solid tomato;
-    background-color:whitesmoke;
+    background-color: whitesmoke;
     padding: 50px;
     border-radius: 15px;
     box-shadow: 10px 10px 10px tomato;
     text-align: center;
 }
 
+/*Class selector-Position for the boxes on the right side ("About me" and "Work" sections*/
 .content {
-    position:relative;
+    position: relative;
 }
 
-/*Class selectors-Styling for each section's  paragraphs*/
+/*Class selectors-Styling for the pararaph box in the "About me" section*/
 .content p {
     font-size: 25px;
-    color:darkturquoise;
+    color: darkturquoise;
     margin-right: auto;
     border: 5px solid tomato;
-    display:flex;
-    flex-wrap:wrap;
-    background-color:whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
     margin-right: 30px;
     padding: 50px;
     border-radius: 15px;
     box-shadow: 10px 10px 10px tomato;
 }
 
-/*ID selectors-Big image in the Work section*/
+/*ID selectors-Big image/box in the "Work" section*/
 .bigbox {
-    
-    position:relative;
-    color:darkturquoise;
-    width:900px;
-    height:400px;
+
+    position: relative;
+    color: darkturquoise;
+    width: 900px;
+    height: 400px;
     margin-top: 70px;
     margin-right: 30px;
     padding: 50px;
     border: 5px solid tomato;
-    display:flex;
-    flex-wrap:wrap;
-    background-color:whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
     border-radius: 15px;
     box-shadow: 10px 10px 10px tomato;
 }
 
-
-.text-block1 {
-    position:absolute;
-    top:-20px;
-    right:235px;
-    background-color:tomato;
-    color:white;
-    padding:15px;
-    border-radius:10px;
-    
+.bigbox:hover {
+    background-color:lightseagreen;
 }
 
+/*Class selector-Position of the small boxes in the "Work" section*/
 .smallboxes {
-    position:relative;  
+    position: relative;
+}
+
+/*Titles for the 3 boxes in the "Work"section*/
+.text-block1 {
+    position: absolute;
+    top: -20px;
+    right: 235px;
+    background-color: tomato;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+
 }
 
 .text-block2 {
-position:absolute;
-top:53px;
-right:602px;
-padding:12px;
-background-color: tomato;
-color:white;
-border-radius: 10px;
+    position: absolute;
+    top: 53px;
+    right: 602px;
+    padding: 12px;
+    background-color: tomato;
+    color: white;
+    border-radius: 10px;
 }
 
 .text-block3 {
-    position:absolute;
-    bottom:-95px;
-    right:175px;
+    position: absolute;
+    bottom: -95px;
+    right: 175px;
     padding: 12px;
     background-color: tomato;
-    color:white;
-    border-radius:10px;
+    color: white;
+    border-radius: 10px;
 }
 
 
 /*Class selectors-Placing the 2 smaller boxes in the same line/row*/
 .smallboxes::before {
-    content:"";
-    clear:both;
+    content: "";
+    clear: both;
     display: table;
 }
 
-/*ID selectors for small boxes 1 and 2*/
+/*ID selectors for the small boxes 1 and 2 in the "Work" section*/
 #smallimage1 {
-    color:darkturquoise;
-    width:25%;
-    height:300px;
+    color: darkturquoise;
+    width: 25%;
+    height: 300px;
     margin-top: 70px;
-    margin-left:480px;
+    margin-left: 480px;
     border: 5px solid tomato;
-    float:left;
-    background-color:whitesmoke;
+    float: left;
+    background-color: whitesmoke;
     margin-right: 30px;
     padding: 50px;
     border-radius: 15px;
     box-shadow: 10px 10px 10px tomato;
 }
 
+#smallimage1:hover {
+    background-color:lightseagreen;
+}
+
 #smallimage2 {
-    color:darkturquoise;
-    width:25%;
-    height:300px;
+    color: darkturquoise;
+    width: 25%;
+    height: 300px;
     margin-top: 70px;
     margin-right: 100px;
     border: 5px solid tomato;
-    float:right;
-    background-color:whitesmoke;
+    float: right;
+    background-color: whitesmoke;
     padding: 50px;
     border-radius: 15px;
     box-shadow: 10px 10px 10px tomato;
 }
 
+#smallimage2:hover {
+    background-color:lightseagreen;
+}
+
+/*Class selectors-Big box in the "Contact" section*/
 .contactbox {
-    display:flex;
-    width:800px;
+    display: flex;
+    width: 800px;
     font-size: 20px;
-    color:darkturquoise;
+    color: darkturquoise;
     border: 5px solid tomato;
-    display:inline-flex;
-    flex-wrap:wrap;
-    background-color:whitesmoke;
+    display: inline-flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
     margin-right: 30px;
     padding: 50px;
     border-radius: 15px;
     box-shadow: 10px 10px 10px tomato;
     justify-content: space-between;
-    text-decoration:underline;
-    margin-top:150px;
+    text-decoration: underline;
+    margin-top: 150px;
 
 }
 
+/*ID selectors-text color in the email and GitHub links inside the "Contact me" Section*/
 #linkcolor1,
 #linkcolor2 {
-    color:darkturquoise;
+    color: darkturquoise;
 }
 
+/*Tablets viewport*/
 @media screen and (max-width: 980px) {
+
+    header h1,
+    p {
+        margin-right: 100px;
+    }
+
+    nav {
+        justify-content: center;
+    }
+    
+        
+    .myphoto {
+        margin-left: 190px;
+    }
+
+    nav {
+        margin-right: 100px;
+    }
+
+    .leftcontent h1 {
+        font-size: 20px;
+        margin: 90px;
+        margin-right: 20px;
+    }
+
+    .content p {
+        font-size: 15px;
+        max-width: 525px;
+    }
+
+    .bigbox {
+        max-width: 525px;
+    }
+    
+    .text-block1 {
+        top: -20px;
+        right: 208px;
+    }
+
+    .text-block2 {
+        right:506px;
+    }
+
+    .text-block3 {
+        margin-right: 50px;
+    }
+
+
+    #smallimage1 {
+        margin-left: 250px;
+    }
+
+    #smallimage2 {
+        margin-right: 200px;
+    }
+
+    .contactbox {
+        margin-top: 100px;
+        margin-left: 50px;
+        max-width: 460px;
+        font-size:16px;
+    }
 
     
 }
 
+
+/*Large smartphones viewport*/
 @media screen and (max-width:768px) {
-    header,
-    nav,
-    div,
-    main,
-    aside,
-    footer {
-        width:50%;
+
+    header h1,
+    p {
+        margin-right: 100px;
     }
 
     nav {
+        justify-content: center;
+        margin-right: 100px;
+    }
+    
+      
+    .myphoto {
+        margin-left: 90px;
+    }
+
+    .leftcontent h1 {
+        font-size: 20px;
+        margin: 25px;
+        margin-top: 100px;
+    }
+
+    .content p {
+        font-size: 12px;
+        max-width: 410px;
+    }
+
+    .bigbox {
+        max-width: 410px;
+        max-height: 300px;
+    }
+    
+    
+    .text-block1 {
+        max-width: 275px;
+        text-align: center;
+        right: 218px;
+    }
+
+    
+    .text-block2 {
+        right: 390px;
+        max-width: 160px;
+        text-align: center;
+        top: 35px;
+    }
+
+    .text-block3 {
+        right: 110px;
+        max-width: 170px;
         text-align: center;
     }
+
+    #smallimage1 {
+        margin-left: 200px;
+    }
+
+    #smallimage2 {
+        margin-right: 150px;
+    }
+
+    .contactbox {
+        margin-top: 100px;
+        margin-left: 20px;
+        max-width: 385px;
+        font-size: 13px;
+    }
+
+ 
+
 }
 
+/*Small smartphones viewport*/
 @media screen and (max-width:576px) {
-    header,
-    nav,
-    div,
-    main,
-    aside,
-    section,
-    footer {
-        width:100%
+    header h1,
+    p {
+        margin-right: 100px;
     }
 
     nav {
-        text-align:center;
+        justify-content: center;
+        margin-right: 0px;
+        margin-left:-80px;
     }
-}
+    
+       
+    .myphoto {
+        margin-left: 0px;
+    }
 
+    .leftcontent h1 {
+        font-size: 15px;
+        margin: 25px;
+        margin-top: 100px;
+        max-width:100px;
+        max-height:100px;
+        padding:25px;
+    }
+
+    .content p {
+        font-size: 12px;
+        max-width: 300px;
+    }
+
+    .bigbox {
+        max-width: 310px;
+        max-height: 300px;
+    }
+    
+    
+    .text-block1 {
+        max-width: 275px;
+        text-align: center;
+        right: 136px;
+    }
+
+    
+    .text-block2 {
+        right: 355px;
+        max-width: 100px;
+        max-height:200px;
+        text-align: center;
+        top: 35px;
+    }
+
+    .text-block3 {
+        right: 85px;
+        max-width: 110px;
+        padding:5px;
+    }
+
+    #smallimage1 {
+        margin-left: 100px;
+        max-width:150px;
+        max-height:150px;
+    }
+
+    #smallimage2 {
+        margin-right: 120px;
+        max-width:150px;
+        max-height:150px;
+    }
+
+    .contactbox {
+        margin-top: 120px;
+        margin-left: 20px;
+        max-width: 300px;
+        font-size: 10px;
+        padding:15px;
+    }
+
+    
+
+}
