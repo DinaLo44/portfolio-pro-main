@@ -9,4 +9,8 @@ The second application is a fan page that informs about the "Backstreet Boys" ba
 The third and last application it is a simple demostration of basic JavaScript functions.
 
 Here is a screenshot of the final website:
-![portfolio-pro-main](
+![portfolio-pro-main](https://github/DinaLo44/portfolio-pro-main/blob/main/images/portfolio screenshot.png)
+
+Here is the link of the deployed application:
+
+
